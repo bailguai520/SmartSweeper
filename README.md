@@ -3,6 +3,8 @@
 ![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.2-brightgreen)
 ![NeoForge](https://img.shields.io/badge/NeoForge-21.2.1--beta-blue)
 ![Version](https://img.shields.io/badge/Version-1.0.0-orange)
+![GitHub stars](https://img.shields.io/github/stars/bailguai520/SmartSweeper?style=social)
+![GitHub forks](https://img.shields.io/github/forks/bailguai520/SmartSweeper?style=social)
 
 [English](#english) | [中文](#中文)
 
@@ -202,7 +204,7 @@ A: 位于 `.minecraft/config/smartsweeper-common.toml`
 
 ### 🐛 问题反馈
 
-如果遇到问题或有建议，请在 [GitHub Issues](https://github.com/yourusername/smartsweeper/issues) 提交。
+如果遇到问题或有建议，请在 [GitHub Issues](https://github.com/bailguai520/SmartSweeper/issues) 提交。
 
 ### 📝 更新日志
 
@@ -416,7 +418,7 @@ A: Located at `.minecraft/config/smartsweeper-common.toml`
 
 ### 🐛 Bug Reports
 
-If you encounter issues or have suggestions, please submit at [GitHub Issues](https://github.com/yourusername/smartsweeper/issues).
+If you encounter issues or have suggestions, please submit at [GitHub Issues](https://github.com/bailguai520/SmartSweeper/issues).
 
 ### 📝 Changelog
 

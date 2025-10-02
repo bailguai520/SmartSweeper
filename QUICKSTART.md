@@ -136,5 +136,7 @@ minecraft:heart_of_the_sea
 
 ### 📞 需要帮助？
 
-查看完整文档：[README.md](README.md)
+- 📖 查看完整文档：[README.md](https://github.com/bailguai520/SmartSweeper/blob/master/README.md)
+- 🐛 问题反馈：[GitHub Issues](https://github.com/bailguai520/SmartSweeper/issues)
+- ⭐ 给个Star：[GitHub 仓库](https://github.com/bailguai520/SmartSweeper)
 
