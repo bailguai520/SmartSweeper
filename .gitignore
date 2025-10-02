@@ -1,0 +1,67 @@
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# Eclipse
+*.launch
+.settings/
+.metadata/
+.classpath
+.project
+bin/
+eclipse/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Run directory
+run/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Crash reports
+crash-reports/
+
+# Minecraft server files
+server.properties
+eula.txt
+banned-ips.json
+banned-players.json
+ops.json
+usercache.json
+whitelist.json
+
+# Build artifacts
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Config files (optional - uncomment if you want to ignore user configs)
+# config/
+
+# Generated sources
+src/generated/
+
+# Cache
+.cache/
+
+# Local environment
+local.properties
