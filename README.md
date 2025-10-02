@@ -43,7 +43,7 @@ SmartSweeper 是一个功能强大且用户友好的 Minecraft 物品清理模�
 
 **方式二：命令**
 ```
-/itemclear gui
+/smartsweeper gui
 ```
 
 #### 配置选项说明
@@ -74,53 +74,53 @@ SmartSweeper 是一个功能强大且用户友好的 Minecraft 物品清理模�
 
 ```bash
 # 打开图形界面
-/itemclear gui
+/smartsweeper gui
 
 # 立即清理物品
-/itemclear now
+/smartsweeper now
 
 # 切换自动清理开关
-/itemclear toggle
+/smartsweeper toggle
 
 # 查看当前状态
-/itemclear status
+/smartsweeper status
 ```
 
 #### 间隔设置
 
 ```bash
 # 设置清理间隔（秒）
-/itemclear interval <秒数>
+/smartsweeper interval <秒数>
 
 # 示例：设置为5分钟
-/itemclear interval 300
+/smartsweeper interval 300
 ```
 
 #### 白名单管理
 
 ```bash
 # 添加物品到白名单
-/itemclear whitelist add <物品ID>
+/smartsweeper whitelist add <物品ID>
 
 # 从白名单移除物品
-/itemclear whitelist remove <物品ID>
+/smartsweeper whitelist remove <物品ID>
 
 # 查看白名单
-/itemclear whitelist list
+/smartsweeper whitelist list
 
 # 示例
-/itemclear whitelist add minecraft:diamond
-/itemclear whitelist remove minecraft:dirt
+/smartsweeper whitelist add minecraft:diamond
+/smartsweeper whitelist remove minecraft:dirt
 ```
 
 #### 统计信息
 
 ```bash
 # 查看统计数据
-/itemclear stats show
+/smartsweeper stats show
 
 # 重置统计数据
-/itemclear stats reset
+/smartsweeper stats reset
 ```
 
 ### 📊 统计系统
@@ -183,7 +183,7 @@ SmartSweeper 是一个功能强大且用户友好的 Minecraft 物品清理模�
 ### ❓ 常见问题
 
 **Q: 如何保护某些物品不被清理？**  
-A: 将物品ID添加到白名单中。可以通过GUI或命令 `/itemclear whitelist add <物品ID>` 添加。
+A: 将物品ID添加到白名单中。可以通过GUI或命令 `/smartsweeper whitelist add <物品ID>` 添加。
 
 **Q: 刚扔出的物品会被立即清理吗？**  
 A: 不会。模组会忽略1秒内刚掉落的物品。
@@ -195,7 +195,7 @@ A: 启用后，只清理自然生成的物品（如怪物掉落、矿石），�
 A: 可以！模组同时支持单人和多人游戏。
 
 **Q: 如何完全禁用自动清理？**  
-A: 使用命令 `/itemclear toggle` 或在GUI中取消勾选"启用自动清理"。
+A: 使用命令 `/smartsweeper toggle` 或在GUI中取消勾选"启用自动清理"。
 
 **Q: 配置文件在哪里？**  
 A: 位于 `.minecraft/config/smartsweeper-common.toml`
@@ -257,7 +257,7 @@ SmartSweeper is a powerful and user-friendly Minecraft item clearing mod designe
 
 **Method 2: Command**
 ```
-/itemclear gui
+/smartsweeper gui
 ```
 
 #### Configuration Options
@@ -288,53 +288,53 @@ All commands require **OP permission** (level 2).
 
 ```bash
 # Open GUI
-/itemclear gui
+/smartsweeper gui
 
 # Clear items immediately
-/itemclear now
+/smartsweeper now
 
 # Toggle auto-clear
-/itemclear toggle
+/smartsweeper toggle
 
 # View current status
-/itemclear status
+/smartsweeper status
 ```
 
 #### Interval Settings
 
 ```bash
 # Set clear interval (seconds)
-/itemclear interval <seconds>
+/smartsweeper interval <seconds>
 
 # Example: Set to 5 minutes
-/itemclear interval 300
+/smartsweeper interval 300
 ```
 
 #### Whitelist Management
 
 ```bash
 # Add item to whitelist
-/itemclear whitelist add <item_id>
+/smartsweeper whitelist add <item_id>
 
 # Remove item from whitelist
-/itemclear whitelist remove <item_id>
+/smartsweeper whitelist remove <item_id>
 
 # View whitelist
-/itemclear whitelist list
+/smartsweeper whitelist list
 
 # Examples
-/itemclear whitelist add minecraft:diamond
-/itemclear whitelist remove minecraft:dirt
+/smartsweeper whitelist add minecraft:diamond
+/smartsweeper whitelist remove minecraft:dirt
 ```
 
 #### Statistics
 
 ```bash
 # View statistics
-/itemclear stats show
+/smartsweeper stats show
 
 # Reset statistics
-/itemclear stats reset
+/smartsweeper stats reset
 ```
 
 ### 📊 Statistics System
@@ -397,7 +397,7 @@ Located at: `config/smartsweeper-common.toml`
 ### ❓ FAQ
 
 **Q: How to protect certain items from being cleared?**  
-A: Add item IDs to the whitelist via GUI or command `/itemclear whitelist add <item_id>`.
+A: Add item IDs to the whitelist via GUI or command `/smartsweeper whitelist add <item_id>`.
 
 **Q: Will just-dropped items be cleared immediately?**  
 A: No. The mod ignores items dropped within 1 second.
@@ -409,7 +409,7 @@ A: When enabled, only naturally spawned items (mob drops, ores) are cleared, not
 A: Yes! The mod works in both single-player and multiplayer.
 
 **Q: How to completely disable auto-clearing?**  
-A: Use command `/itemclear toggle` or uncheck "Enable Auto-Clear" in GUI.
+A: Use command `/smartsweeper toggle` or uncheck "Enable Auto-Clear" in GUI.
 
 **Q: Where is the config file?**  
 A: Located at `.minecraft/config/smartsweeper-common.toml`

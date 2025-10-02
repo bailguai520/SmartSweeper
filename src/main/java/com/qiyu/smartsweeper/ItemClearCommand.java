@@ -23,7 +23,7 @@ public class ItemClearCommand {
     public static void onRegisterCommands(RegisterCommandsEvent event) {
         CommandDispatcher<CommandSourceStack> dispatcher = event.getDispatcher();
         
-        dispatcher.register(Commands.literal("itemclear")
+        dispatcher.register(Commands.literal("smartsweeper")
             .requires(source -> source.hasPermission(2)) // Requires operator permission
             .then(Commands.literal("gui")
                 .executes(ItemClearCommand::openGui))

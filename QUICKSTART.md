@@ -13,7 +13,7 @@
 #### 打开配置界面
 ```
 按 ESC → 模组 → SmartSweeper → 配置
-或输入命令：/itemclear gui
+或输入命令：/smartsweeper gui
 ```
 
 #### 默认设置
@@ -25,27 +25,27 @@
 
 #### 立即清理物品
 ```bash
-/itemclear now
+/smartsweeper now
 ```
 
 #### 开关自动清理
 ```bash
-/itemclear toggle
+/smartsweeper toggle
 ```
 
 #### 修改清理间隔
 ```bash
 # 改为10分钟
-/itemclear interval 600
+/smartsweeper interval 600
 
 # 改为1小时
-/itemclear interval 3600
+/smartsweeper interval 3600
 ```
 
 #### 添加白名单
 ```bash
 # 方式1：命令
-/itemclear whitelist add minecraft:emerald
+/smartsweeper whitelist add minecraft:emerald
 
 # 方式2：GUI
 打开配置界面 → 输入物品ID → 点击添加
